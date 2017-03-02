@@ -5,7 +5,7 @@ public class FileMoveRoute2 extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        from("file://target/secondtest/inbox").to("file://target/secondtest/outbox");
+        from("file://target/Test2/inbox").to("file://target/Test2/outbox");
     }
 }
 

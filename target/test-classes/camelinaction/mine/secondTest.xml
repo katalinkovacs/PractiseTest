@@ -8,20 +8,10 @@
 
     <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
         <route>
-            <from uri="file://target/secondtest/inbox"/>
-            <to uri="file://target/secondtest/outbox"/>
+            <from uri="file://target/Test2/inbox"/>
+            <to uri="file://target/Test2/outbox"/>
         </route>
     </camelContext>
 
-
-
-    <!--
-    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
-        <route>
-            <from uri="file://C:/Kati/MarloPractise/FileReadInOut/inbox"/>
-            <to uri="file://C:/Kati/MarloPractise/FileReadInOut/outbox"/>
-        </route>
-    </camelContext>
--->
 
 </beans>
